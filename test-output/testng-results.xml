@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!]]>
+    </line>
+    <line>
+      <![CDATA[Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-01-10T06:29:17Z" name="Suite" finished-at="2024-01-10T06:30:11Z" duration-ms="54297">
+    <groups>
+    </groups>
+    <test started-at="2024-01-10T06:29:17Z" name="Test" finished-at="2024-01-10T06:30:11Z" duration-ms="54297">
+      <class name="script.DemoTest2">
+        <test-method is-config="true" signature="preCondition(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:script.DemoTest2@48aaecc3]" started-at="2024-01-10T06:29:42Z" name="preCondition" finished-at="2024-01-10T06:30:03Z" duration-ms="20602" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.flipkart.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="testB()[pri:0, instance:script.DemoTest2@48aaecc3]" started-at="2024-01-10T06:30:03Z" name="testB" finished-at="2024-01-10T06:30:03Z" duration-ms="13" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:script.DemoTest2@48aaecc3]" started-at="2024-01-10T06:30:03Z" name="postCondition" finished-at="2024-01-10T06:30:11Z" duration-ms="8538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- script.DemoTest2 -->
+      <class name="script.DemoTest">
+        <test-method is-config="true" signature="preCondition(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:script.DemoTest@60d8c9b7]" started-at="2024-01-10T06:29:17Z" name="preCondition" finished-at="2024-01-10T06:29:36Z" duration-ms="19076" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.flipkart.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="testA()[pri:0, instance:script.DemoTest@60d8c9b7]" started-at="2024-01-10T06:29:36Z" name="testA" finished-at="2024-01-10T06:29:37Z" duration-ms="423" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:script.DemoTest@60d8c9b7]" started-at="2024-01-10T06:29:37Z" name="postCondition" finished-at="2024-01-10T06:29:42Z" duration-ms="5625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- script.DemoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

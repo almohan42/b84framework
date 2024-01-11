@@ -1,0 +1,15 @@
+
+<suite name="Suite">
+  <test name="Test">
+	  <parameters>
+		  <parameter name="browser" value="firefox"/>
+		  <parameter name="appurl" value="http://www.flipkart.com"/>
+		  <parameter name="ito" value="10"/>
+		  <parameter name="eto" value="7"/>
+	  </parameters>
+    <packages>
+      <package name="script"/>
+    </packages>
+  </test> 
+  
+</suite>
